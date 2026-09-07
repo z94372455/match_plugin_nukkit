@@ -1,0 +1,11 @@
+name: MathPlugin
+main: com.example.mathplugin.MathPlugin
+version: 1.0.0
+api: ["1.0.0"]
+author: Dev
+description: Плагін математичних задач
+
+commands:
+  math:
+    description: Головна команда плагіна
+    permission: mathplugin.use

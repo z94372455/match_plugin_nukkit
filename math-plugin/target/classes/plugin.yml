@@ -1,0 +1,13 @@
+name: MathPlugin
+main: com.example.mathplugin.MathPlugin
+version: 1.0.0
+api: ["1.0.0"]
+author: Dev
+description: Математичні завдання українською мовою
+commands:
+  math:
+    description: Математичні завдання
+    permission: mathplugin.use
+permissions:
+  mathplugin.use:
+    default: true

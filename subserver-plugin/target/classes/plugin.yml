@@ -1,0 +1,15 @@
+name: SubServer
+main: com.example.subserver.SubServerPlugin
+version: 1.0.0
+api: ["1.0.0"]
+author: Dev
+description: Керування підсерверами з окремими папками плагінів
+commands:
+  ss:
+    description: Керування підсерверами
+    usage: /ss <start|startmain|stop|m|l> <назва> [команда]
+    permission: subserver.use
+permissions:
+  subserver.use:
+    description: Дозволяє керувати підсерверами
+    default: op
